@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto Serif', serif;
+}
+#Datmehar img{
+    padding: 0;
+    margin: 0;
+}
+#Datmehar h1{
+    padding-top: 0;
+
+    margin-bottom: 0;
+}
+
+#buttons{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+table{
+    
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    background-color: black;
+    color: #FFD700;
+    text-align: left;
+    border: 1px solid black;
+    padding: 5px;
+}
+td{
+    background-color: black;
+    color: #FFD700;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+  #wave1,
+  #wave2{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #wave1{
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .intro{
+    color: #FFD700;
+    font-size: 30px;
+  }
+  
+
+  
+  .second-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+   
+  
+  
+  
+  .card_a1{
+    width: 30%;
+    padding: 20px;
+    margin: 0%;
+    background-color: blue;
+    color: yellow;
+    justify-content: center;
+    
+  }
+  .card_a1:hover{
+    background-color: #2196F3;
+  }
+  .card_a2{
+    width: 50%;
+    padding: 20px;
+    
+    background-color: yellow;
+    color: blue;
+    justify-content: center;
+  }
+  
+
+
+  #a2,
+  #b2,
+  #c2{
+    display: none;
+  }
+  #hwage,#wage{
+    display: none;
+    justify-content: center;
+    text-align: center;
+  }
+  #wage{
+    margin-left: 20vw;
+  }
+  @media screen and (max-width:500px) {
+    body{
+        font-size: 10px;
+    }
+    .First{
+        width: 55vw;
+    }
+    #Datmehar img{
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+    }
+    .stick{
+        margin: 0;
+        display: none;
+    }
+    td,th{
+        font-size: 6px;
+    }
+    .card_a1{
+        padding: 0;
+        width:70%;
+    }
+    .card_a2{
+        width: 70%;
+    }
+    .intro{
+    font-size: 20px;
+    }
+}

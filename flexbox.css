@@ -1,0 +1,114 @@
+.flex1 {
+    display: block;
+   
+    flex-wrap:wrap;
+    flex-direction: row;
+    
+    background-color: #2196F3;
+    
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .flex2 {
+    padding-top: 0;
+    display: flex;
+   
+    flex-wrap:wrap;
+    flex-direction: row;
+    
+    background-color: black;
+    
+    justify-content: center;
+    
+  }
+  .flex3{
+    padding-top: 0;
+    background-color: #2196F3;
+    
+    padding-bottom: 5vh;
+  }
+  .First{
+    background-color: rgb(55, 55, 171);
+    color: yellow;
+    width: 30vw;
+    margin-top: 20vh;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 10vh;
+    overflow: hidden;
+    /* right: 50vw; */
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.intro{
+    z-index: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+#First:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.First img{
+    margin-top: 25vh;
+  }
+.Second{
+    background-color: #FFD700;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    width: 35%;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.Second footer{
+    background-color: black;
+    color: #FFD700;
+    padding: 10px;
+}
+#sep_head{
+    background-color: #FFD700;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 50vw;
+}
+.Third{
+    background-color: #FFD700;
+    color: black;
+    width: 35%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 20px;
+}
+.Third main{
+    text-align: left;
+}
+.Third footer{
+    color: black;
+    position: relative;
+    top:10px;
+    
+}
+.parent{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 30vw;
+    
+    margin-bottom: 5vh;
+    padding: 10px;
+    background-color: black;
+    
+  }
+  .parent:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
